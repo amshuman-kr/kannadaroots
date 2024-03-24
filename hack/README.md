@@ -34,20 +34,20 @@ ban
 nōn
 ```
 
-### List all halanta roots in Kannada
+### List all non-halanta roots in Kannada
 
 ```sh
-$ ./hack/roots.sh | grep -f ./hack/halanta.regex | head
-tēgum
-uṇ
-kāṇ
-māṇ
-pūṇ
-paṇ
-nān
-ban
-ān
-nōn
+$ ./hack/roots.sh | grep -f ./hack/non-halanta.regex | head
+ī
+ō
+kā
+kī
+kē
+kuṭaku
+misuku
+musuku
+kusuku
+kusuṅku
 ```
 
 ### List all halanta roots in Kannada including u-ending roots which are also likely halanta, except the -cu ending, which are likely secondary formations

@@ -19,11 +19,11 @@ echo '$ ./hack/roots.sh | grep -f ./hack/halanta.regex | head'
 echo '```'
 echo ''
 
-echo '### List all halanta roots in Kannada'
+echo '### List all non-halanta roots in Kannada'
 echo ''
 echo '```sh'
-echo '$ ./hack/roots.sh | grep -f ./hack/halanta.regex | head'
-./hack/roots.sh | grep -f ./hack/halanta.regex | head
+echo '$ ./hack/roots.sh | grep -f ./hack/non-halanta.regex | head'
+./hack/roots.sh | grep -f ./hack/non-halanta.regex | head
 echo '```'
 echo ''
 
