@@ -146,7 +146,7 @@ nagu
 ugu
 ```
 
-### List all bisyllabic roots in Kannada.
+### List all bisyllabic roots in Kannada
 
 ```sh
 $ ./hack/roots.sh | grep -f ./hack/bisyllabic-dax.regex -f ./hack/bisyllabic-dumx.regex | head
